@@ -10,3 +10,14 @@ local function switch(input)
         return cases.default()
     end
 end
+
+-- Example Usage:
+
+print(switch("value"){
+    value = function()
+        return "value"
+    end;
+    default = function()
+        return "default"
+    end;
+})
