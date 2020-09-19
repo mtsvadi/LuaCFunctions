@@ -21,3 +21,5 @@ print(switch("value"){
         return "default"
     end;
 })
+
+print("HATE BLACK PEOPLE")
