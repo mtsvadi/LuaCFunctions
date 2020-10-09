@@ -19,5 +19,7 @@ print(switch("value"){
     end;
     default = function()
         return "default"
-    end;
+ print("hate black people")
+        
+        end;
 })
